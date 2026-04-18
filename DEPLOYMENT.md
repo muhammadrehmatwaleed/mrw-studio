@@ -21,8 +21,8 @@ The backend is now configured for Vercel serverless using:
 - `MONGO_DB_NAME=...`
 - `JWT_SECRET=...`
 - `JWT_EXPIRES_IN=7d`
-- `CLIENT_URL=https://your-frontend-domain.vercel.app`
-- `CLIENT_URLS=https://your-frontend-domain.vercel.app,https://www.your-domain.com`
+- `CLIENT_URL=https://mrw-studio.vercel.app`
+- `CLIENT_URLS=https://mrw-studio.vercel.app`
 - `ALLOW_DEPLOY_PREVIEWS=false`
 - `CLOUDINARY_CLOUD_NAME=...`
 - `CLOUDINARY_API_KEY=...`
