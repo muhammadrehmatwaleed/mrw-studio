@@ -1,0 +1,19 @@
+{
+  "name": "mrw-cv-ecommerce",
+  "version": "1.0.0",
+  "description": "Modern MERN eCommerce workspace",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n client,server -c cyan,green \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "seed": "npm run seed --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
