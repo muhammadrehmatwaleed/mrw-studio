@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://mrw-studio-xrmq.vercel.app/api/$1"
+      "destination": "https://mrw-studio-combine.vercel.app/"
     },
     {
       "source": "/(.*)",
-      "destination": "/"
+      "destination": "https://mrw-studio-combine.vercel.app/"
     }
   ],
   "headers": [
